@@ -1,0 +1,8 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Scaffold the Project - Next.js with TypeScript and Tailwind CSS
+- [x] Customize the Project - Add navigation and sections
+- [x] Install Required Extensions
+- [x] Compile the Project
+- [x] Create and Run Task
+- [x] Launch the Project
+- [x] Ensure Documentation is Complete
