@@ -137,7 +137,7 @@ export default function Home() {
           
           {/* Name */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight">
-            <span className="block mb-2">Hi, I'm</span>
+            <span className="block mb-2">Hi, I&apos;m</span>
             <span className="block bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400 text-transparent bg-clip-text">
               Joshua Wehunt
             </span>
@@ -211,40 +211,40 @@ export default function Home() {
                 description: "A full-featured online store with shopping cart, payment integration, and admin dashboard for inventory management.",
                 image: "from-blue-500 to-cyan-500",
                 tags: ["React", "Node.js", "MongoDB", "Stripe"],
-                demoLink: "http://localhost:3001",
-                codeLink: "#"
+                demoLink: "https://hunterj1125.github.io/luxury-ecommerce-frontend/",
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               },
               {
                 title: "Task Management App",
                   description: "Interactive Kanban board with drag-and-drop functionality, priority filtering, and local storage persistence for seamless task organization.",
                   image: "from-purple-500 to-pink-500",
                   tags: ["Next.js", "TypeScript", "@dnd-kit", "Tailwind"],
-                  demoLink: "http://localhost:3002",
-                codeLink: "#"
+                  demoLink: "https://hunterj1125.github.io/task-management/",
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               },
               {
                 title: "Social Media Dashboard",
                 description: "Vibrant analytics dashboard with animated backgrounds, real-time metrics tracking, and interactive Recharts visualizations for Instagram, Twitter, Facebook, and LinkedIn.",
                 image: "from-orange-500 to-red-500",
                 tags: ["Next.js", "TypeScript", "Recharts", "Tailwind"],
-                demoLink: "http://localhost:3003",
-                codeLink: "#"
+                demoLink: "https://hunterj1125.github.io/social-media-dashboard/",
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               },
               {
                 title: "Weather Forecast App",
                   description: "Beautiful weather dashboard with animated backgrounds, large typography, current conditions, and 7-day forecast with glassmorphism design.",
                   image: "from-teal-500 to-green-500",
                   tags: ["Next.js", "TypeScript", "Tailwind", "Weather API"],
-                  demoLink: "http://localhost:3004",
-                codeLink: "#"
+                  demoLink: "https://hunterj1125.github.io/weather-forecast/",
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               },
               {
                 title: "Portfolio CMS",
                 description: "Beautiful CMS for photographers and artists with masonry galleries, lightbox views, and elegant portfolio showcase design.",
                 image: "from-indigo-500 to-blue-500",
                 tags: ["Next.js", "TypeScript", "Tailwind", "CMS"],
-                demoLink: "http://localhost:3005",
-                codeLink: "#"
+                demoLink: "https://hunterj1125.github.io/portfolio-cms/",
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               },
               {
                 title: "Fitness Tracker",
@@ -252,7 +252,7 @@ export default function Home() {
                 image: "from-rose-500 to-orange-500",
                 tags: ["React Native", "Express", "MySQL"],
                 demoLink: "#",
-                codeLink: "#"
+                codeLink: "https://github.com/hunterj1125/luxury-ecommerce-frontend"
               }
             ].map((project, index) => (
               <div
@@ -482,7 +482,7 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              Have a project in mind? Let's work together!
+              Have a project in mind? Let&apos;s work together!
             </p>
           </div>
           
@@ -621,6 +621,14 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
 
 
 
